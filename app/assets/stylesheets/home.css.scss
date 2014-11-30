@@ -23,6 +23,8 @@ header {
 	background-image: url('/assets/triangular/triangular.png');
 	display: inline-block;
 	width: 100%;
+	overflow: hidden;
+  height: auto;
 }
 
 h1 {
