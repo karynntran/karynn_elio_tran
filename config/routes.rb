@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'career/index'
+  resources :careers, only: [:index]
 
   root 'home#index'
 

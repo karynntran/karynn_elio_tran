@@ -11,17 +11,17 @@
 				</div>
 			</td>
 			<td width="5px" rowspan="2"></td>
-			<td class="box" id="t1">career</td>
+			<td data-link="<%= "careers" %>" class="box" id="t1">career</td>
 			<td class="box" id="t2"></td>
-			<td class="box" id="t3">code</td>
+			<td data-link="<%= "careers" %>" class="box" id="t3">code</td>
 			<td class="box" id="t4"></td>
 		</tr>
 
 		<tr>
 			<td class="box" id="b1"></td>
-			<td class="box" id="b2">create</td>
+			<td data-link="<%= "careers" %>" class="box" id="b2">create</td>
 			<td class="box" id="b3"></td>
-			<td class="box" id="b4">capture</td>
+			<td data-link="<%= "careers" %>" class="box" id="b4">capture</td>
 		</tr>
 
 	</table>
@@ -77,5 +77,20 @@
 
 	});
 
+	$("td[data-link]").click(function() {
+	  window.location = "/careers"
+	})
+
+	$("td[data-link]").click(function() {
+	  window.location = "/code"
+	})
+
+	$("td[data-link]").click(function() {
+	  window.location = "/create"
+	})
+
+	$("td[data-link]").click(function() {
+	  window.location = "/capture"
+	})
 
 	</script>
