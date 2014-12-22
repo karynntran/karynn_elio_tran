@@ -4,7 +4,6 @@ body {
 	font-family: helvetica;
 	background-color: #E6E6E6;
 }
-
 .navigation {
 	ul {
 		float: right;
@@ -18,7 +17,6 @@ body {
 		color: white;
 	}
 }
-
 header {
 	background-image: url('/assets/triangular/triangular.png');
 	display: inline-block;
@@ -26,13 +24,10 @@ header {
 	overflow: hidden;
 	height: auto;
 }
-
 h1 {
 	color: #330033;
 }
-
 /*HOME STYLES*/
-
 .home-styles {
 	footer {
 		height: 400px;
@@ -40,48 +35,41 @@ h1 {
 		left:0px;
 		bottom:0px;
 	}
-
+	#category-buttons {
+		margin: 0 auto;
+	}
 	.box {
 		color: white;
-		font-size: 40px;
-		text-align: right;
-		border-radius: 10px;
-		height: 10%;
-		width: 10%;
-		background-size:   cover;                      /* <------ */
+		font-size: 20px;
+		text-align: center;
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
-	}
-
-	#name {
-		background-color: #3C3C3C;
-		color: white;
-		font-size: 40px;
-		width:225px;
-		font-size: 60px;
-		padding: 0 0 60px 10px;
-		margin-right: 20px;
-		border-radius: 10px;
+    margin: 10px;
+		display: inline-block;
 	}
 	#box-1 {
 		background-color: #330033;
 		padding: 10px;
-		background-size: fit-content;
+		vertical-align: middle;
 	}
 	#box-2 {
 		background-color: #471947;
 		padding: 10px;
-		background-size: 175px auto;
+		vertical-align: middle;
 	}
 	#box-3 {
 		background-color: #6C476C;
 		padding: 10px;
-		background-size: 175px auto;
+		vertical-align: middle;
 	}
 	#box-4 {
 		background-color: #957A95;
 		padding: 10px;
-		background-size: 175px auto;
+		vertical-align: middle;
 	}
 }
 
