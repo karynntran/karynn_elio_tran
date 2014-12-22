@@ -1,100 +1,11 @@
 <div class="home-styles">
 
-	<table id="index-nav">
-		
-		<tr>
-			<td id="name" rowspan="2">
-				<div class="vertical-text">
-					<br>karynn
-					<br>elio
-					<br>tran
-				</div>
-			</td>
-			<td width="5px" rowspan="2"></td>
-			<td data-link="<%= "careers" %>" class="box" id="t1">career</td>
-			<td class="box" id="t2"></td>
-			<td data-link="<%= "careers" %>" class="box" id="t3">code</td>
-			<td class="box" id="t4"></td>
-		</tr>
+	<div data-link="<%= "careers" %>" class="box" id="box-1">career</div>
 
-		<tr>
-			<td class="box" id="b1"></td>
-			<td data-link="<%= "careers" %>" class="box" id="b2">create</td>
-			<td class="box" id="b3"></td>
-			<td data-link="<%= "careers" %>" class="box" id="b4">capture</td>
-		</tr>
+	<div data-link="<%= "careers" %>" class="box" id="box-2">code</div>
 
-	</table>
+	<div data-link="<%= "careers" %>" class="box" id="box-3">create</div>
 
-	<footer>
-		
-	</footer>
+	<div data-link="<%= "careers" %>" class="box" id="box-4">capture</div>
 
 </div>
-
-	<script>
-	$(document).ready(function(){
-		$("#t1")
-		  .mouseover(function() { 
-		      $originalText = $('#t1').text();
-		      $('#t1').text('');
-		      $('#t1').css("background-image", "url('/assets/index1.jpg')");
-		  })
-		  .mouseout(function() {
-		      $('#t1').text($originalText);
-		      $('#t1').css("background-image", "none");
-		  });
-
-
-		$("#t3")
-		  .mouseover(function() { 
-		      $originalText = $('#t3').text();
-		      $('#t3').text('');
-		      $('#t3').css("background-image", "url('/assets/index3.jpg')");
-		  })
-		  .mouseout(function() {
-		      $('#t3').text($originalText);
-		      $('#t3').css("background-image", "none");
-		  });
-
-		$("#b2")
-		  .mouseover(function() { 
-		      $originalText = $('#b2').text();
-		      $('#b2').text('');
-		      $('#b2').css("background-image", "url('/assets/index5.jpg')");
-		  })
-		  .mouseout(function() {
-		      $('#b2').text($originalText);
-		      $('#b2').css("background-image", "none");
-		  });
-
-		$("#b4")
-		  .mouseover(function() { 
-		      $originalText = $('#b4').text();
-		      $('#b4').text('');
-		      $('#b4').css("background-image", "url('/assets/index6.jpg')");
-		  })
-		  .mouseout(function() {
-		      $('#b4').text($originalText);
-		      $('#b4').css("background-image", "none");
-		  });
-
-	});
-
-	$("td[data-link]").click(function() {
-	  window.location = "/careers"
-	})
-
-	$("td[data-link]").click(function() {
-	  window.location = "/code"
-	})
-
-	$("td[data-link]").click(function() {
-	  window.location = "/create"
-	})
-
-	$("td[data-link]").click(function() {
-	  window.location = "/capture"
-	})
-
-	</script>
