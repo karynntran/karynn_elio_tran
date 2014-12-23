@@ -1,8 +1,8 @@
 /*UNIVERSAL STYLES*/
 
 body {
-	font-family: helvetica;
 	background-color: #E6E6E6;
+	color: #282828;
 }
 .navigation {
 	ul {
@@ -17,23 +17,20 @@ body {
 		color: white;
 	}
 }
-header {
-	background-image: url('/assets/triangular/triangular.png');
-	display: inline-block;
-	width: 100%;
-	overflow: hidden;
-	height: auto;
-}
 h1 {
 	color: #330033;
 }
 /*HOME STYLES*/
-.home-styles {
+.universal-styles {
 	footer {
 		height: 400px;
 		background-image: url('/assets/triangular/triangular.png');
 		left:0px;
 		bottom:0px;
+	}
+	h1 {
+		text-align: center;
+		margin-top: 20px;
 	}
 	#category-buttons {
 		margin: 0 auto;
@@ -42,13 +39,13 @@ h1 {
 		color: white;
 		font-size: 20px;
 		text-align: center;
-		height: 100px;
-		width: 100px;
-		border-radius: 50%;
+		height: 75px;
+		width: 75px;
+		border-radius: 10%;
 		background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
-    margin: 10px;
+    margin: 20px;
 		display: inline-block;
 	}
 	#box-1 {
@@ -70,9 +67,46 @@ h1 {
 		background-color: #957A95;
 		padding: 10px;
 		vertical-align: middle;
+	}	
+}
+.content {
+	padding: 50px 0;
+}
+
+#about-me {
+	color: #383838;
+	font-size: 15px;
+	background-color: white;
+	margin-top: 20px;
+	padding: 50px 0;
+	.header-title {
+		text-align: center;
+		margin: 20px 0;
+		color: #282828;
+	}
+	.header-text {
+		text-align: left;
+	}
+}
+#code-section {
+	background-color: #330033;
+		color: white;
+	#code-title {
+		background-color: #330033;
+		color: white;
+	}
+}
+#career-section {
+	background-color: #471947;
+		color: white;
+	#career-title {
+		background-color: #471947;
+		color: white;
+		
 	}
 }
 
-.career-styles {
-
+footer {
+	background-image: url('/assets/triangular/triangular.png');
+	width: 100%;
 }
