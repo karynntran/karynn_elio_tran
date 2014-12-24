@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'home/download_pdf' => 'home#download_pdf'
+
   get '/create' => 'home#create'
 
   get '/capture' => 'home#capture'

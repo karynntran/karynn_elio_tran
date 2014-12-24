@@ -22,6 +22,7 @@ h1 {
 }
 /*HOME STYLES*/
 .universal-styles {
+	font-size: 15px;
 	footer {
 		height: 400px;
 		background-image: url('/assets/triangular/triangular.png');
@@ -34,6 +35,7 @@ h1 {
 	}
 	#category-buttons {
 		margin: 0 auto;
+		padding: 50px 0;
 	}
 	.box {
 		color: white;
@@ -41,7 +43,6 @@ h1 {
 		text-align: center;
 		height: 75px;
 		width: 75px;
-
 		background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -71,7 +72,6 @@ h1 {
 }
 #about-me {
 	color: #383838;
-	font-size: 15px;
 	background-color: white;
 	margin-top: 10px;
 	padding: 50px 0;
@@ -88,26 +88,27 @@ h1 {
 	background-color: #330033;
 	color: white;
 	padding: 75px 0;
-	#code-title {
-		background-color: #330033;
-		color: white;
-		border: 5px solid white;
-		padding: 5px;
-	}
 }
 .project-photo {
 	width: auto;
 	height: 150px;
 	border: white 1px solid;
 }
+
 #career-section {
 	background-color: #471947;
-		color: white;
-	#career-title {
-		background-color: #471947;
-		color: white;
-	}
+	color: white;
+	padding: 75px 0;
 }
+.header {
+	font-size: 20px;
+}
+#subheader {
+	color: white;
+	border: 5px solid white;
+	padding: 5px;
+}
+
 
 footer {
 	background-image: url('/assets/triangular/triangular.png');

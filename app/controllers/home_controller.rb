@@ -21,4 +21,12 @@ class HomeController < ApplicationController
     render :layout => 'application'
   end
 
+  def download_pdf
+    send_file(
+      "#{Rails.root}/public/karynn_elio_tran.pdf",
+      filename: "karynn_elio_tran.pdf",
+      type: "application/pdf"
+    )
+  end
+
 end
