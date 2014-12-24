@@ -94,9 +94,18 @@ h1 {
 	height: 150px;
 	border: white 1px solid;
 }
-
 #career-section {
 	background-color: #471947;
+	color: white;
+	padding: 75px 0;
+}
+#create-section {
+	background-color: #6C476C;
+	color: white;
+	padding: 75px 0;
+}
+#contact-section {
+	background-color: #957A95;
 	color: white;
 	padding: 75px 0;
 }
@@ -107,6 +116,9 @@ h1 {
 	color: white;
 	border: 5px solid white;
 	padding: 5px;
+}
+input {
+	width: 50%;
 }
 
 
