@@ -20,6 +20,10 @@ body {
 h1 {
 	color: #330033;
 }
+#main-title {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+}
 /*HOME STYLES*/
 .universal-styles {
 	font-size: 15px;
@@ -108,6 +112,9 @@ h1 {
 	background-color: #957A95;
 	color: white;
 	padding: 75px 0;
+}
+#logos {
+	text-align: center;
 }
 .header {
 	font-size: 20px;

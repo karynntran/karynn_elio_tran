@@ -1,7 +1,7 @@
 <div class="universal-styles">
 	<center>
 		<div id="category-buttons">
-			<h1>karynn elio tran</h1>
+			<h1 id="main-title">karynn elio tran</h1>
 			<div class="box" id="box-1">code</div>
 			<div class="box" id="box-2">career</div>
 			<div class="box" id="box-3">create</div>
@@ -84,15 +84,15 @@
 		<div class="row">
 			<div class="content">
 				<div class="four columns">
-					<p class="header">STORYTELLER & QUALITATIVE ANALYST</p></br>
+					<p class="header">STORYTELLER &<br>QUALITATIVE ANALYST</p></br>
 					COMMUNISPACE CORPORATION<br>
-					I worked with awesome teams, for multiple Fortune 500 companies. I took journeys through their consumers' lives through designing research, dig into fascinating insights and bringing their stories to life in visually engaging reports.
+					I've worked with awesome teams, for multiple Fortune 500 companies such as Heinz, Pepsi-Co and Hilton Worldwide. On a daily basis, I took journey's through consumers' lives by way of research design, dug up fascinating insights through their experiences and brought their stories to life in visually engaging reports.
 				</div>
 
 				<div class="four columns">
-					<p class="header">PUBLISHER & PROJECT MANAGER</p></br>
+					<p class="header">PUBLISHER &<br> PROJECT MANAGER</p></br>
 					MEDIAPLANET PUBLISHING<br>
-					I published two independent supplements in USA Today and The Washington Post, educating over a million readers about work/life balance and the importance of digestive health. 
+					I've published two independent supplements in USA Today and The Washington Post, educating over one million readers about work/life balance in the workplace and the importance of digestive health. Getting Sharon Osbourne and Pearl Jam's Mike McCready involved in these campaigns was pretty cool, too.  
 				</div>
 
 				<div class="four columns">
@@ -111,11 +111,16 @@
 			<div class="content">
 				<div class="four columns">
 					<h3 id="subheader">create</h3>
+					<p><%= link_to "Photos Gallery", "https://www.flickr.com/photos/124520799@N02/sets/72157645686683272/", :target => "_blank" %></p>
 				</div>
 
-				<div class="eight columns">
+				<div class="three columns">
 					<p class="header">LET'S MAKE SOMETHING!</p></br>
-					Crafting, cooking and capturing photos ... these are a few of my favorite things. Scroll through to take a peek at other things I like to dabble in.
+					When I'm not coding, I'm all about creating. Crafting, cooking and capturing travel adventures and unique moments are just a few of my favorite things. Scroll through to take a peek at what I like to dabble in my spare time.
+				</div>
+
+				<div class="five columns">
+					<%= render partial: 'carousel' %>
 				</div>
 
 			</div>
@@ -127,7 +132,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="content">
+				<div class="twelve columns">
+					<div id="logos">
+						<img class="logo" src="assets/icons/email.png" width="50px" height="50px">
+						<img class="logo" src="assets/icons/flickr.png" width="50px" height="50px">
+						<img class="logo" src="assets/icons/github.png" width="50px" height="50px">
+						<img class="logo" src="assets/icons/linkedin.png" width="50px" height="50px">						
+						<img class="logo" src="assets/icons/twitter.png" width="50px" height="50px">					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="content">
 				<div class="eight columns">
 					<p class="header">Send me a note!</p></br>
 					Email: <%= render partial: 'contact_form' %>
