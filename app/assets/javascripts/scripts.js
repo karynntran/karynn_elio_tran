@@ -1,6 +1,9 @@
 console.log(':)')
 
 $(document).ready(function(){
+
+
+
 	$("#box-1")
 	  .mouseover(function() { 
 	      $originalText = $('#box-1').text();
